@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/colorsview_shape.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_push_pin_24.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_menu.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_outline_push_pin_24.xml" value="0.19444444444444445" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/item_shape.xml" value="0.20555555555555555" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/fragment_single_note.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/pinned_rv_items.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/singlenote_appbar.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/upcoming_rv_items.xml" value="0.32592592592592595" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/action.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/bottom_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/singlenote_menu.xml" value="0.25" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/NoteApplication/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/NoteApplication/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/sahar.r/AndroidStudioProjects/NoteApplication/app/src/main/res/layout/fragment_single_note.xml" value="0.36666666666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

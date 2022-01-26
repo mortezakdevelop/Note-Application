@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Note Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Hello Home Fragment</string>
+    <string name="single_fragment">Hello Single Note Fragment</string>
+    <string name="pinning">Pinning</string>
+
+</resources>
