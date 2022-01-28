@@ -25,4 +25,8 @@ class AppRepository @Inject constructor(
     fun updateNote(noteEntity: NoteEntity){
         roomDao.update(noteEntity)
     }
+
+    fun deleteNote(noteEntity: NoteEntity) {
+        roomDao.delete(noteEntity)
+    }
 }

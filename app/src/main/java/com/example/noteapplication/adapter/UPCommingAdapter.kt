@@ -35,9 +35,9 @@ class UPCommingAdapter(private var data: ArrayList<NoteEntity>,private var liste
                 listener.onItemRVClickListener(noteEntity)
             }
 
-//            binding.imageFilterButton2.setOnClickListener {
-//                listener.onMenuItemClickListener(it,noteEntity)
-//            }
+            binding.imageFilterButton2.setOnClickListener {
+                listener.onMenuItemRVClickListener(it,noteEntity)
+            }
             binding.executePendingBindings()
         }
     }

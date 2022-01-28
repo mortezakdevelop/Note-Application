@@ -36,6 +36,12 @@ class AppViewModel @Inject constructor(
             appRepository.updateNote(noteEntity)
         }
     }
+    fun deleteNote(noteEntity: NoteEntity) {
+        viewModelScope.launch(Dispatchers.IO) {
+            appRepository.deleteNote(noteEntity)
+        }
+    }
+
 
     fun getAllFromDb(){
         viewModelScope.launch (Dispatchers.IO) {
@@ -44,5 +50,6 @@ class AppViewModel @Inject constructor(
             }
         }
     }
+
 
 }

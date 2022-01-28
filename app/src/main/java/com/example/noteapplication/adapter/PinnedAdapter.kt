@@ -45,9 +45,9 @@ class PinnedAdapter(private var data: ArrayList<NoteEntity>,private var listener
             binding.pinnedCardView.setOnClickListener {
                 listener.onItemRVClickListener(noteEntity)
             }
-//            binding.imageFilterButton.setOnClickListener {
-//                listener.onMenuItemClickListener(it,noteEntity)
-//            }
+            binding.imageFilterButton.setOnClickListener {
+                listener.onMenuItemRVClickListener(it,noteEntity)
+            }
 
             binding.executePendingBindings()
             // normal bind without textViewCompat(without best practice)

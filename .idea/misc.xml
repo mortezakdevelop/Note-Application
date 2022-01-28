@@ -5,7 +5,12 @@
       <map>
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/colorsview_shape.xml" value="0.215625" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_attach_money_24.xml" value="0.19074074074074074" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.215625" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_equalizer_24.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_more_vert_24.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.19074074074074074" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_baseline_push_pin_24.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_menu.xml" value="0.19444444444444445" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/drawable/ic_outline_push_pin_24.xml" value="0.19444444444444445" />
@@ -18,6 +23,7 @@
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/layout/upcoming_rv_items.xml" value="0.32592592592592595" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/action.xml" value="0.1" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/bottom_menu.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/delete_menu.xml" value="0.19947916666666668" />
         <entry key="..\:/Users/morteza/AndroidStudioProjects/Note-Application/app/src/main/res/menu/singlenote_menu.xml" value="0.25" />
         <entry key="..\:/Users/sahar.r/AndroidStudioProjects/NoteApplication/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/sahar.r/AndroidStudioProjects/NoteApplication/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
