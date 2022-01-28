@@ -42,7 +42,6 @@ class AppViewModel @Inject constructor(
         }
     }
 
-
     fun getAllFromDb(){
         viewModelScope.launch (Dispatchers.IO) {
             appRepository.getAllData().collect {
@@ -50,6 +49,5 @@ class AppViewModel @Inject constructor(
             }
         }
     }
-
 
 }

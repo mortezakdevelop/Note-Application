@@ -1,6 +1,8 @@
 package com.example.noteapplication.ui
 
 import UPCommingAdapter
+import android.annotation.SuppressLint
+import android.app.Activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -9,6 +11,7 @@ import android.widget.PopupMenu
 import androidx.activity.OnBackPressedCallback
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
+import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.viewModels
 import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
@@ -26,7 +29,6 @@ class HomeFragment : Fragment(),CardClickListener {
 
     private lateinit var binding: FragmentHomeBinding
     private val viewModel: AppViewModel by viewModels()
-
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -50,21 +52,13 @@ class HomeFragment : Fragment(),CardClickListener {
         super.onViewCreated(view, savedInstanceState)
 
 
-        // close app when we are in homeFragment
-            val home = requireActivity().findViewById<View>(R.id.homeCon)
+     // when we are in home fragment and back pressed button , finish fragment
+        requireActivity().onBackPressedDispatcher.addCallback(this, object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                requireActivity().finish()
+            }
+        })
 
-            requireActivity().onBackPressedDispatcher.addCallback(
-                requireActivity(),
-                object : OnBackPressedCallback(true) {
-                    override fun handleOnBackPressed() {
-                        if (home.id == R.id.homeCon) {
-                            requireActivity().finish()
-                        } else {
-                            isEnabled = false
-                            requireActivity().onBackPressed()
-                        }
-                    }
-                })
     }
     private fun setUpUncommingRecyclerView() {
 

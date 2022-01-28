@@ -3,11 +3,13 @@ package com.example.noteapplication.ui
 import android.content.Context
 import android.os.Bundle
 import android.view.*
+import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.appcompat.widget.Toolbar
 import androidx.core.content.ContextCompat
 import androidx.customview.widget.Openable
 import androidx.databinding.DataBindingUtil
+import androidx.fragment.app.FragmentTransaction
 import androidx.fragment.app.viewModels
 import androidx.navigation.NavController
 import androidx.navigation.Navigation
@@ -99,6 +101,7 @@ class SingleNoteFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         setupToolBar(view)
+
     }
 
     private fun setupToolBar(view: View) {
